@@ -1,0 +1,59 @@
+{
+  "topic": "wages",
+  "title": "Unpaid or delayed salary / wages",
+  "scope_note": "Covers an employee whose salary or full-and-final settlement has not been paid. Does NOT cover wrongful termination, PF/EPFO disputes, harassment, or gratuity disputes (those need a lawyer or a different forum).",
+  "required_fields": ["other_party_name", "amount", "event_date", "what_happened", "still_employed", "proof"],
+  "field_labels": {
+    "other_party_name": "the employer / company name",
+    "amount": "the total unpaid amount (in rupees)",
+    "event_date": "the date the unpaid salary was originally due (e.g. the first month not paid)",
+    "what_happened": "which months are unpaid and what the employer has said",
+    "still_employed": "whether you still work there or have left (and your last working day)",
+    "proof": "what proof you have (offer letter, payslips, bank statement, salary chats, attendance)"
+  },
+  "limitation": {"years": 3, "start_fields": ["event_date"], "provision": "CW2019_S45",
+                 "note": "Authority may still entertain a late claim if sufficient cause is shown."},
+  "provisions": [
+    {"id": "CW2019_S17", "act_key": "CW2019", "sections": ["17"], "cite_as": "Section 17, Code on Wages, 2019",
+     "title": "When wages must be paid",
+     "plain": "The Code sets time limits for paying wages (for monthly wages, by the 7th day of the next month). If an employee is removed, dismissed, retrenched or resigns, wages must be paid within 2 working days of that.",
+     "source": "https://www.pockethrms.com/?p=74812",
+     "verified": "partial", "caveat": "2-working-day rule confirmed in one HR source; the 7th-day rule for monthly wages from general knowledge. Rules and state notifications may add details."},
+    {"id": "CW2019_S18", "act_key": "CW2019", "sections": ["18"], "cite_as": "Section 18, Code on Wages, 2019",
+     "title": "Deductions",
+     "plain": "Employers may only make deductions from wages that the Code allows, and total deductions are capped (the cap commonly cited is 50% of wages in a pay period).",
+     "source": "https://righttoinformation.wiki/rights/unpaid-salary-rights",
+     "verified": "partial", "caveat": "Cap taken from a secondary source."},
+    {"id": "CW2019_S43", "act_key": "CW2019", "sections": ["43"], "cite_as": "Section 43, Code on Wages, 2019",
+     "title": "Employer's responsibility to pay",
+     "plain": "The employer is responsible for paying the wages and other dues owed to the employee under the Code.",
+     "source": "https://en.vikaspedia.in/viewcontent/social-welfare/unorganised-sector-1/schemes-unorganised-sector/code-on-wages,-2019?lgn=en",
+     "verified": true, "caveat": ""},
+    {"id": "CW2019_S45", "act_key": "CW2019", "sections": ["45"], "cite_as": "Section 45, Code on Wages, 2019",
+     "title": "Claiming unpaid wages",
+     "plain": "You can apply to the authority appointed by the government under Section 45 (usually through the state labour department). The application can generally be made within 3 years from when the claim arose (Section 45(6)); a late application can be accepted if there is sufficient cause. The authority can order the unpaid wages and may also order compensation, which can be up to ten times the amount owed.",
+     "source": "https://www.advocatekhoj.com/library/bareacts/codeonwages/45.php",
+     "verified": true, "caveat": "Which office hears claims, and how to file, differs by state."},
+    {"id": "CW2019_S54", "act_key": "CW2019", "sections": ["54"], "cite_as": "Section 54, Code on Wages, 2019",
+     "title": "Penalty on employer",
+     "plain": "Paying less than what is due is an offence punishable with a fine. This is enforced by the State; you do not file a criminal case yourself under this section.",
+     "source": "https://righttoinformation.wiki/code-on-wages-recover-unpaid-minimum-wages",
+     "verified": "partial", "caveat": "Do not quote fine amounts to the user without a lawyer's check."},
+    {"id": "CW2019_S69", "act_key": "CW2019", "sections": ["69"], "cite_as": "Section 69, Code on Wages, 2019",
+     "title": "Old laws replaced",
+     "plain": "The Code on Wages, 2019 came into force on 21 Nov 2025 and repealed the Payment of Wages Act 1936, the Minimum Wages Act 1948, the Payment of Bonus Act 1965 and the Equal Remuneration Act 1976. Wages that fell due before that date can raise transition questions.",
+     "source": "https://www.scconline.com/blog/post/2025/11/26/enforcement-dates-of-labour-codes-legal-news/amp",
+     "verified": true, "caveat": "For wages that fell due before 21 Nov 2025, send the user to a lawyer or labour office about which law applies."}
+  ],
+  "procedure": {
+    "title": "Typical path",
+    "steps": [
+      "Gather proof: offer letter/appointment letter, payslips, bank statements, salary chats/emails, attendance or ID card.",
+      "Write to HR/employer asking for the exact amount and a date by email (keep a copy).",
+      "Send a written demand notice (draft provided) giving a short deadline, by email and registered post.",
+      "If unpaid, apply to the wage-claims authority through the state labour department / Labour Commissioner's office (Section 45).",
+      "A lawyer or legal aid (NALSA 15100) can help if the employer disputes that you were an employee."
+    ]
+  },
+  "redflags": ["freelancer or contractor or intern or gig", "PF or EPFO or gratuity", "terminated or fired", "wages fell due before 21 Nov 2025", "domestic worker"]
+}

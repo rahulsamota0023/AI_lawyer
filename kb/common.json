@@ -1,0 +1,18 @@
+{
+  "disclaimer_en": "I'm an AI, not a lawyer. This is general information, not legal advice.",
+  "disclaimer_hi": "मैं एक AI हूँ, वकील नहीं। यह सामान्य जानकारी है, कानूनी सलाह नहीं।",
+  "helplines": [
+    {"name": "NALSA free legal aid helpline", "number": "15100", "from_memory": true,
+     "note": "Eligibility for free legal aid depends on income and category; they can tell you."},
+    {"name": "National Consumer Helpline", "number": "1915", "from_memory": true,
+     "note": "Can mediate with companies before you file a complaint."},
+    {"name": "Police / emergency", "number": "112", "from_memory": true},
+    {"name": "Women helpline", "number": "181", "from_memory": true},
+    {"name": "Tele-MANAS mental health support", "number": "14416", "from_memory": true}
+  ],
+  "portals": [
+    {"name": "e-Daakhil (online consumer complaint filing)", "url": "https://edaakhil.nic.in", "from_memory": true}
+  ],
+  "verified_on": "2026-11-07",
+  "note": "Items marked from_memory were NOT re-verified in the research pass; re-check before public launch."
+}
