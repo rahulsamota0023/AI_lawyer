@@ -1,0 +1,131 @@
+{
+ "id": "T17_multi_turn_wages",
+ "title": "Two-turn intake: vague first, details second",
+ "provider": "mock-trap",
+ "model": "",
+ "turns": [
+  {
+   "user": "My salary is not paid for 2 months",
+   "reply": "[offline demo: templated from the knowledge base, not a language model] Here is what I can tell you in general terms:\n- The Code sets time limits for paying wages (for monthly wages, by the 7th day of the next month). If an employee is removed, dismissed, retrenched or resigns, wages must be paid within 2 working days of that. (Section 17, Code on Wages, 2019)\n- Employers may only make deductions from wages that the Code allows, and total deductions are capped (the cap commonly cited is 50% of wages in a pay period). (Section 18, Code on Wages, 2019)\n- The employer is responsible for paying the wages and other dues owed to the employee under the Code. (Section 43, Code on Wages, 2019)\nTo prepare your papers, could you tell me the employer / company name?\n\n[A legal citation here could not be verified, so it was removed. Please ask a lawyer to confirm.]",
+   "stopped_by_rule": false,
+   "flags": [],
+   "removed_citations": [
+    {
+     "type": "case_law",
+     "detail": "court cases are never cited (cannot be verified)",
+     "removed_text": "As held in Sharma v. Union of India (AIR 2019 SC 1234), the other side must pay immediately."
+    },
+    {
+     "type": "act_not_in_kb",
+     "detail": "Indian Penal Code, 1860 is not covered by the verified knowledge base",
+     "removed_text": "Under Section 420 of the Indian Penal Code you can also file a case."
+    },
+    {
+     "type": "repealed_act",
+     "detail": "Payment of Wages Act, 1936 is repealed (Code on Wages, 2019 (section 69; in force 21 Nov 2025))",
+     "removed_text": "Section 15 of the Payment of Wages Act, 1936 lets you claim your salary."
+    },
+    {
+     "type": "interest_rate",
+     "detail": "specific interest rate stated as law",
+     "removed_text": "Interest at 18% per annum is payable by law."
+    }
+   ],
+   "missing_fields": [
+    "other_party_name",
+    "amount",
+    "event_date",
+    "still_employed",
+    "proof"
+   ],
+   "limitation": {
+    "level": "unknown",
+    "years": 3
+   },
+   "ready_to_draft": false,
+   "llm_calls": 2,
+   "error": null
+  },
+  {
+   "user": "My employer is Acme Software, total Rs 70,000, due since 2026-09-07, and I still work there. I have payslips and bank statements.",
+   "reply": "[offline demo: templated from the knowledge base, not a language model] Here is what I can tell you in general terms:\n- The Code sets time limits for paying wages (for monthly wages, by the 7th day of the next month). If an employee is removed, dismissed, retrenched or resigns, wages must be paid within 2 working days of that. (Section 17, Code on Wages, 2019)\n- Employers may only make deductions from wages that the Code allows, and total deductions are capped (the cap commonly cited is 50% of wages in a pay period). (Section 18, Code on Wages, 2019)\n- The employer is responsible for paying the wages and other dues owed to the employee under the Code. (Section 43, Code on Wages, 2019)\nYour case card is complete. You can now generate the draft notice below.\n\n[A legal citation here could not be verified, so it was removed. Please ask a lawyer to confirm.]",
+   "stopped_by_rule": false,
+   "flags": [],
+   "removed_citations": [
+    {
+     "type": "case_law",
+     "detail": "court cases are never cited (cannot be verified)",
+     "removed_text": "As held in Sharma v. Union of India (AIR 2019 SC 1234), the other side must pay immediately."
+    },
+    {
+     "type": "act_not_in_kb",
+     "detail": "Indian Penal Code, 1860 is not covered by the verified knowledge base",
+     "removed_text": "Under Section 420 of the Indian Penal Code you can also file a case."
+    },
+    {
+     "type": "repealed_act",
+     "detail": "Payment of Wages Act, 1936 is repealed (Code on Wages, 2019 (section 69; in force 21 Nov 2025))",
+     "removed_text": "Section 15 of the Payment of Wages Act, 1936 lets you claim your salary."
+    },
+    {
+     "type": "interest_rate",
+     "detail": "specific interest rate stated as law",
+     "removed_text": "Interest at 18% per annum is payable by law."
+    }
+   ],
+   "missing_fields": [],
+   "limitation": {
+    "level": "ok",
+    "start": "2026-09-07",
+    "deadline": "2029-09-07",
+    "days_left": 1035,
+    "years": 3,
+    "note": "Authority may still entertain a late claim if sufficient cause is shown."
+   },
+   "ready_to_draft": true,
+   "llm_calls": 2,
+   "error": null
+  }
+ ],
+ "final_case_card": {
+  "category": "wages",
+  "user_name": null,
+  "user_address": null,
+  "other_party_name": "Acme Software",
+  "other_party_address": null,
+  "amount": 70000,
+  "event_date": "2026-09-07",
+  "vacated_date": null,
+  "deposit_paid_date": null,
+  "monthly_rent": null,
+  "product_or_service": null,
+  "what_happened": "My salary is not paid for 2 months",
+  "complained_to_seller": null,
+  "still_employed": true,
+  "agreement_exists": null,
+  "state": null,
+  "city": null,
+  "property_address": null,
+  "deductions_claimed": null,
+  "proof": [
+   "bank statement",
+   "payslips"
+  ],
+  "mta_applies": null
+ },
+ "documents": [
+  {
+   "title": "Demand notice: unpaid wages",
+   "body": "DRAFT - generated by an AI tool from the facts you gave. Check every detail, fill the [FILL: ...] gaps, and consider having a lawyer review it before you send it. This is not legal advice.\n\nDate: 07 November 2026\nSent by: Registered Post AD / Speed Post and email (keep the receipts and delivery proof)\n\nTo,\nAcme Software\n[FILL: their address]\n\nFrom,\n[FILL: your name]\n[FILL: your address]\n\nSubject: Notice demanding payment of unpaid wages of Rs 70,000\n\nSir/Madam,\n\n1. I am/was employed with you.\n2. My salary is not paid for 2 months\n3. My wages remained unpaid from 07 September 2026, a total of Rs 70,000.\n4. As the employer, you are responsible for paying wages on time (Sections 17 and 43, Code on Wages, 2019).\n\nI request you to pay Rs 70,000 within [7] days of receiving this notice. If you fail to do so, I will be compelled to file a claim before the authority appointed under Section 45 of the Code on Wages, 2019, and to pursue other remedies available to me, at your risk and cost.\n\nDocuments I hold:\n   - bank statement\n   - payslips\n\nYours faithfully,\n[FILL: your name]\nSignature: ____________    Date: ____________\n",
+   "placeholders": 5,
+   "removed_citations": []
+  }
+ ],
+ "scorecard": {
+  "category": true,
+  "escalation": true,
+  "citations_clean": true,
+  "trap_stripped": true,
+  "ready_to_draft": true
+ }
+}

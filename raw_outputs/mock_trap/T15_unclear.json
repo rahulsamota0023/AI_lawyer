@@ -1,0 +1,71 @@
+{
+ "id": "T15_unclear",
+ "title": "No usable problem described",
+ "provider": "mock-trap",
+ "model": "",
+ "turns": [
+  {
+   "user": "I have a legal problem, please help",
+   "reply": "[offline demo] Could you tell me a little more about what happened? Is it about a rental deposit, a refund for a product/service, or unpaid salary?\n\n[A legal citation here could not be verified, so it was removed. Please ask a lawyer to confirm.]\n\nI can help with three kinds of problems: (1) a rental security deposit that was not returned, (2) a refund or a defective product/service, (3) unpaid salary. Which one is closest to your problem? A line or two about what happened is enough.",
+   "stopped_by_rule": false,
+   "flags": [],
+   "removed_citations": [
+    {
+     "type": "case_law",
+     "detail": "court cases are never cited (cannot be verified)",
+     "removed_text": "As held in Sharma v. Union of India (AIR 2019 SC 1234), the other side must pay immediately."
+    },
+    {
+     "type": "act_not_in_kb",
+     "detail": "Indian Penal Code, 1860 is not covered by the verified knowledge base",
+     "removed_text": "Under Section 420 of the Indian Penal Code you can also file a case."
+    },
+    {
+     "type": "repealed_act",
+     "detail": "Payment of Wages Act, 1936 is repealed (Code on Wages, 2019 (section 69; in force 21 Nov 2025))",
+     "removed_text": "Section 15 of the Payment of Wages Act, 1936 lets you claim your salary."
+    },
+    {
+     "type": "interest_rate",
+     "detail": "specific interest rate stated as law",
+     "removed_text": "Interest at 18% per annum is payable by law."
+    }
+   ],
+   "missing_fields": [],
+   "limitation": {},
+   "ready_to_draft": false,
+   "llm_calls": 2,
+   "error": null
+  }
+ ],
+ "final_case_card": {
+  "category": null,
+  "user_name": null,
+  "user_address": null,
+  "other_party_name": null,
+  "other_party_address": null,
+  "amount": null,
+  "event_date": null,
+  "vacated_date": null,
+  "deposit_paid_date": null,
+  "monthly_rent": null,
+  "product_or_service": null,
+  "what_happened": null,
+  "complained_to_seller": null,
+  "still_employed": null,
+  "agreement_exists": null,
+  "state": null,
+  "city": null,
+  "property_address": null,
+  "deductions_claimed": null,
+  "proof": [],
+  "mta_applies": null
+ },
+ "documents": [],
+ "scorecard": {
+  "category": true,
+  "escalation": true,
+  "citations_clean": true,
+  "trap_stripped": true
+ }
+}

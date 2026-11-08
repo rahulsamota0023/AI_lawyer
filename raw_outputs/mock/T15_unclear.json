@@ -1,0 +1,49 @@
+{
+ "id": "T15_unclear",
+ "title": "No usable problem described",
+ "provider": "mock",
+ "model": "",
+ "turns": [
+  {
+   "user": "I have a legal problem, please help",
+   "reply": "[offline demo] Could you tell me a little more about what happened? Is it about a rental deposit, a refund for a product/service, or unpaid salary?\n\nI can help with three kinds of problems: (1) a rental security deposit that was not returned, (2) a refund or a defective product/service, (3) unpaid salary. Which one is closest to your problem? A line or two about what happened is enough.",
+   "stopped_by_rule": false,
+   "flags": [],
+   "removed_citations": [],
+   "missing_fields": [],
+   "limitation": {},
+   "ready_to_draft": false,
+   "llm_calls": 2,
+   "error": null
+  }
+ ],
+ "final_case_card": {
+  "category": null,
+  "user_name": null,
+  "user_address": null,
+  "other_party_name": null,
+  "other_party_address": null,
+  "amount": null,
+  "event_date": null,
+  "vacated_date": null,
+  "deposit_paid_date": null,
+  "monthly_rent": null,
+  "product_or_service": null,
+  "what_happened": null,
+  "complained_to_seller": null,
+  "still_employed": null,
+  "agreement_exists": null,
+  "state": null,
+  "city": null,
+  "property_address": null,
+  "deductions_claimed": null,
+  "proof": [],
+  "mta_applies": null
+ },
+ "documents": [],
+ "scorecard": {
+  "category": true,
+  "escalation": true,
+  "citations_clean": true
+ }
+}

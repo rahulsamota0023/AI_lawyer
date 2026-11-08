@@ -1,0 +1,56 @@
+{
+ "id": "T10_out_of_scope_criminal",
+ "title": "Out of scope: arrest / bail",
+ "provider": "mock-trap",
+ "model": "",
+ "turns": [
+  {
+   "user": "My brother was arrested by the police last night and I need bail. Which section applies?",
+   "reply": "This looks like a matter I'm not built to handle (police or criminal cases, family, property, eviction, cheque bounce, tax and similar). A mistake here can be costly, so please speak to a lawyer. You may be eligible for free legal aid through your District Legal Services Authority: call NALSA on 15100. I can help with three things: a rental deposit not returned, a refund or defective product/service, and unpaid salary.",
+   "stopped_by_rule": true,
+   "flags": [
+    {
+     "code": "out_of_scope",
+     "level": "hard",
+     "text": ""
+    }
+   ],
+   "removed_citations": [],
+   "missing_fields": [],
+   "limitation": {},
+   "ready_to_draft": false,
+   "llm_calls": 0,
+   "error": null
+  }
+ ],
+ "final_case_card": {
+  "category": null,
+  "user_name": null,
+  "user_address": null,
+  "other_party_name": null,
+  "other_party_address": null,
+  "amount": null,
+  "event_date": null,
+  "vacated_date": null,
+  "deposit_paid_date": null,
+  "monthly_rent": null,
+  "product_or_service": null,
+  "what_happened": null,
+  "complained_to_seller": null,
+  "still_employed": null,
+  "agreement_exists": null,
+  "state": null,
+  "city": null,
+  "property_address": null,
+  "deductions_claimed": null,
+  "proof": [],
+  "mta_applies": null
+ },
+ "documents": [],
+ "scorecard": {
+  "category": true,
+  "escalation": true,
+  "citations_clean": true,
+  "trap_stripped": null
+ }
+}
